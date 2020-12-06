@@ -19,7 +19,12 @@ h4 {
 
 label {
     font-size: .9em;
-    padding-right: 45px;
+    display:inline-block;
+    width: 100px;
+}
+
+.label {
+    margin-bottom: 10px;
 }
 
 .borders {
@@ -48,11 +53,21 @@ input[type="text"],
 input[type="tel"],
 input[type="email"] {
    width: 220px;
+   border: none;
+   border-radius: 2px;
+   height: 25px;
 }
 
 textarea {
     height: 90px;
     width: 220px;
+    border-radius: 2px;
+    border: none;
+}
+
+.topleft {
+    float: left;
+    margin-right: 4px;
 }
 
 ::placeholder {
