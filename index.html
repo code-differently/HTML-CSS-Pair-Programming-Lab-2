@@ -9,23 +9,25 @@
     <body>
         <div class="center">
             <form>
-                <h3>Step 1: Your details</h3>
-                <label for="name">Name</label>
-                <input type="text" id="name" name="full_name"> <br>
+                <h4>Step 1: Your details</h4>
+                <div class="borders">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="full_name" placeholder="First and last name"> <br>
+                </div>
                 <label for="email">Email</label>
-                <input type="text" id="email" name="email_address"> <br>
+                <input type="email" id="email" name="email_address" placeholder="example@email.com"> <br>
                 <label for="phone">Phone</label>
-                <input type="text" id="phone" name="phone_number">
+                <input type="tel" id="phone" name="phone_number" placeholder="Eg. +447500000000">
 
-                <h3>Step 2: Delivery address</h3>
+                <h4>Step 2: Delivery address</h4>
                 <label for="address">Address</label>
-                <textarea id="address" name="address">Address</textarea> <br>
+                <textarea id="address" name="address"></textarea> <br>
                 <label for="pcode">Post code</label>
                 <input type="text" id="pcode" name="post_code"> <br>
                 <label for="country">Country</label>
                 <input type="text" id="country" name="location"> <br>
                 
-                <h3>Step 3: Card details</h3>
+                <h4>Step 3: Card details</h4>
                 <label>Card type</label> <br>
                 <input type="radio" id="visa" value="visa" name="card_type"><label for="visa">Visa</label>
                 <input type="radio" id="amex" value="amex" name="card_type"><label for="amex">Amex</label>
@@ -36,9 +38,10 @@
                 <label for="scode">Security code</label>
                 <input type="text" id="scode" name="security_code"> <br>
                 <label for="ncard">Name on card</label>
-                <input type="text" id="ncard" name="name_on_card"> <br>
-
+                <input type="text" id="ncard" name="name_on_card" placeholder="Exact name as on the card"> <br>
+        <div class="btn">
             <button type="submit">BUY IT!</button> <br>
+        </div>
             </form>
         </div>        
     </body>

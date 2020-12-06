@@ -3,16 +3,51 @@
     Width: fit-content;
     border: 1px solid gainsboro;
     padding: 10px;
+    font-family: serif;
 }
 
 form {
-    background-color: lightgreen;
+    background-color: rgba(161, 204, 82, 0.884);
     border-radius: 10px;
+    padding: 20px;
+    color: rgba(63, 57, 57, 0.795);
+}
+
+h4 {
+    margin: 10px 0 10px;
+}
+
+label {
+    font-size: .9em;
+}
+
+.borders {
+    border: 1px solid lightslategrey;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:  rgba(225, 243, 192, 0.884)
 }
 
 button {
-    background-color: black;
+    background-color: rgba(63, 57, 57, 0.795);
     color: white;
     border-radius: 15px;
-    padding: 3px 15px;
+    padding: 5px 20px;
+    font-size: 1.1em;
+    font-family: none;
+    margin: 8px 0 15px;
+}
+
+.btn {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+   width: 200px;
+}
+
+::placeholder {
+    font-style: italic;
 }
