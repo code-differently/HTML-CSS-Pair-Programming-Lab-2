@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <title>Week 3 Lab 2</title>
+    </head>
+
+    <body>
+        <div class="center">
+            <form>
+                <h3>Step 1: Your details</h3>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="full_name"> <br>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email_address"> <br>
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" name="phone_number">
+
+                <h3>Step 2: Delivery address</h3>
+                <label for="address">Address</label>
+                <textarea id="address" name="address">Address</textarea> <br>
+                <label for="pcode">Post code</label>
+                <input type="text" id="pcode" name="post_code"> <br>
+                <label for="country">Country</label>
+                <input type="text" id="country" name="location"> <br>
+                
+                <h3>Step 3: Card details</h3>
+                <label>Card type</label> <br>
+                <input type="radio" id="visa" value="visa" name="card_type"><label for="visa">Visa</label>
+                <input type="radio" id="amex" value="amex" name="card_type"><label for="amex">Amex</label>
+                <input type="radio" id="mcard" value="mcard" name="card_type"><label for="mcard">Mastercard</label> <br>
+
+                <label for="cnum">Card number</label>
+                <input type="text" id="cardnum" name="card_number"> <br>
+                <label for="scode">Security code</label>
+                <input type="text" id="scode" name="security_code"> <br>
+                <label for="ncard">Name on card</label>
+                <input type="text" id="ncard" name="name_on_card"> <br>
+
+            <button type="submit">BUY IT!</button> <br>
+            </form>
+        </div>        
+    </body>
+</html>
