@@ -1,0 +1,75 @@
+.centerForm {
+    margin: auto;
+    Width: fit-content;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    font-family: serif;
+}
+
+form {
+    background-color: rgba(161, 204, 82, 0.884);
+    border-radius: 5px;
+    padding: 20px;
+    color: rgba(63, 57, 57, 0.795);
+}
+
+h4 {
+    margin: 10px 0 10px;
+}
+
+label {
+    font-size: .9em;
+    display:inline-block;
+    width: 100px;
+}
+
+.label {
+    margin-bottom: 10px;
+}
+
+.borders {
+    border: 1px solid whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:  rgba(198, 226, 147, 0.884);
+    margin-bottom: 3px;
+}
+
+button {
+    background-color: rgba(63, 57, 57, 0.795);
+    color: white;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-size: 1.1em;
+    font-family: none;
+    margin-top: 8px;
+}
+
+.centerDiv {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+   width: 220px;
+   border: none;
+   border-radius: 2px;
+   height: 25px;
+}
+
+textarea {
+    height: 90px;
+    width: 220px;
+    border-radius: 2px;
+    border: none;
+}
+
+.topleft {
+    float: left;
+    margin-right: 4px;
+}
+
+::placeholder {
+    font-style: italic;
+}
